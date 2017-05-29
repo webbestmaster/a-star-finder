@@ -1,6 +1,6 @@
 {
   "name": "a-star-finder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A star for 2D game",
   "keywords": [
     "a*",
