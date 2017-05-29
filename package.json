@@ -1,0 +1,38 @@
+{
+  "name": "a-star-finder",
+  "version": "0.0.1",
+  "description": "A star for 2D game",
+  "keywords": [
+    "a*",
+    "a star",
+    "a-star",
+    "algorithm",
+    "2d",
+    "game",
+    "path"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "test": "mocha ./test/**/*.js",
+    "test-cover": "./test-cover.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbestmaster/a-star-finder.git"
+  },
+  "author": "webbestmaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webbestmaster/a-star-finder/issues"
+  },
+  "homepage": "https://github.com/webbestmaster/a-star-finder#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2"
+  }
+}
