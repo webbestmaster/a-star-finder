@@ -26,7 +26,7 @@ getPath(map, start, end, {noPath: '#'}); // noPath will used instead of default 
 
 
 // async version
-const {getPathAsync} = require('a-star-2d-game');
+const {getPathAsync} = require('a-star-finder');
 
 // getPathAsync support options: getPathAsync(map, start, end, callback, options)
 getPathAsync(map, start, end, path => {
