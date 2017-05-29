@@ -30,9 +30,9 @@ const {getPathAsync} = require('a-star-2d-game');
 
 // getPathAsync support options: getPathAsync(map, start, end, callback, options)
 getPathAsync(map, start, end, path => {
-    // here you path
+    // here your path
     console.log(path);
 });
 ```
 
-If end point is unreachable, you will get null.
+If end point is unreachable, return null.
